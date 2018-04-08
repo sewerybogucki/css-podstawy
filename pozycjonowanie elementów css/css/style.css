@@ -7,10 +7,9 @@ body {
     width: 600px;
     height: 100px;
     margin: bottom 10px;
-        
-    position: absolute;
-    top:40px;
-    left:30px;
+    position: relative;
+    top: 40px;
+    left: 30px;
 }
 
 #drugi {
@@ -18,18 +17,28 @@ body {
     margin: top 10px;
     width: 600px;
     height: 100px;
-    position:absolute;
-    top: 50px;
+
 }
 
 #trzeci {
     background-color: lime;
-    width:700px;
-    height:100px;
-    position:fixed;
-    bottom:10px;
-    right:20px;
+    width: 700px;
+    height: 100px;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
 }
 
-article {text-align: center;
+
+#pierwszy-prim {
+    background-color: yellow;
+    margin: 5px;
+}
+
+#pierwszy-absolutny {
+    background-color: violet;
+    margin: 10px;
+    position: fixed;
+    bottom: 5px;
+    left: 5px;
 }
