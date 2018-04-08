@@ -1,10 +1,25 @@
 /*Selektor znacznika*/
 p {
-    color: orange;
+    color:orange;
 }
 
 #paragraf {
-    color:fuchsia
+    color:fuchsia;
 }
 
-a, span, div {background-color: lime}
+a, span, div {
+    background-color: lime}
+
+li > a {background-color: #e0ca3c;}
+
+ul a {background-color: blue}
+
+h1 + p {color:pink}
+
+hi ~ p {color: aqua}
+
+ul#lista > li:not(.last) {background-color: beige}
+
+ul#lista > li:nth-child(3)
+{background-color: red}
+
