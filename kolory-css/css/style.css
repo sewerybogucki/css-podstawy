@@ -1,3 +1,32 @@
 body {
-background-color: lime
+background-color: lime;
 }
+#predefiniowane {
+width: 400px;
+height: 200px;
+background-color: red;
+margin-bottom: 10px;
+    
+}
+
+#hex-skrocony {width:400px;
+height: 200px;
+background-color: #F4A;
+margin-bottom: 10px;}
+
+#hex {width:400px;
+height: 200px;
+background-color: #FF44AA;
+margin-bottom: 10px;
+}
+#rgb {
+width:400px;
+height:200px;
+background-color:aquamarine;
+margin-bottom: 10px;
+}
+
+#rgba {
+width:400px;
+height:200px;
+background-color:chocolate; }
