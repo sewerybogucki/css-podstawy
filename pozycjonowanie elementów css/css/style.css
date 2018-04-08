@@ -1,12 +1,30 @@
 body {
-    background-color: pink
+    background-color: pink;
 }
-#pierwszy {background-color: green
-width: 600px
-height:100px
-margin:bottom 10px}
 
-#drugi {background-color: red
-margin:top 10px
-width: 600px
-height:100px}
+#pierwszy {
+    background-color: green;
+    width: 600px;
+    height: 100px;
+    margin: bottom 10px;
+        
+    position: absoluted;
+    top:40px;
+    left:30px;
+}
+
+#drugi {
+    background-color: red;
+    margin: top 10px;
+    width: 600px;
+    height: 100px;
+    
+    position:absoluted;
+    top: 50px:
+}
+
+#trzeci {
+    background-color: lime
+    width:100px
+    height:100px
+}
