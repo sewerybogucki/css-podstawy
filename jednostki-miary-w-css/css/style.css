@@ -38,3 +38,11 @@ body {
 #vh {
     width: 40vh;
 }
+
+#vmin {
+    width: 40vmin;
+}
+
+#vmax {
+    width: 40vmax;
+}
