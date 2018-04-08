@@ -5,3 +5,12 @@ html {
 body {
     background-color: azure;
 }
+
+#container {
+    font-size: 30px;
+}
+
+#container > div {
+    background-color: lightcoral;
+    margin-bottom: 10px;
+}
